@@ -23,7 +23,7 @@ public class MsgPublisher {
 
 			if (op.equalsIgnoreCase("i")) {
 				if (publisher == null) {
-					publisher = new MamaTopicPublisher("pubapp", "broker", "zmq", "TEST");
+					publisher = new MamaTopicPublisher("pubapp", "pub", "zmq", "TEST");
 					publisher.setOptions(Level.FINEST, true);
 					publisher.start();
 					System.out.println("Publisher started with:\n" 
