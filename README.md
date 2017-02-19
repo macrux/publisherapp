@@ -1,8 +1,8 @@
 # publisherapp
 
-This is an eclipse project created to publish messages to an OpenMAMA topic using ZQM Bridge.
-Please note that parameters to connect to OpenMAMA are harcoded since this program was
-created just to replicate an Issue when stopping the publisher.
+This is an eclipse project created to  publish messages to an OpenMAMA topic using ZQM Bridge.
+Please note that parameters to connect to OpenMAMA are harcoded since **this program was
+created just to replicate this [issue](https://github.com/fquinner/OpenMAMA-zmq/issues/11) when stopping the publisher**.
 
 It will run by default with:
 
